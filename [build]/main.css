@@ -1,10 +1,15 @@
+/* CSS Document */
 
 
+/* body */
 body {
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
 }
 
+
+/* nav bar */
 nav {
   box-sizing: border-box;
   display: inline-block;
@@ -15,20 +20,23 @@ nav {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	height: auto;
+	height: 76px;
 	border-radius: 0px 0px 4px 4px;
 	font-family: Calibri;
+  z-index: 6;
 }
 
 .nav-icon {
   vertical-align: middle;
+  position: relative;
+  left: 2%;
 }
 
 .nav-menu {
   box-sizing: border-box;
   float: right;
   position: relative;
-  right: 15px;
+  right: 5%;
   vertical-align: middle;
 }
 
@@ -41,22 +49,19 @@ nav {
   display: inline-block;
   list-style: none;
   font-size: 24px;
-  padding: 1px;
   vertical-align: inherit;
 }
 
 .nav-menu ul a {
+  box-sizing: border-box;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   vertical-align: inherit;
 }
 
 .nav-menu ul li:hover > a {
-  color: #C5C5C5;
-  /*
-  font-weight: bold;
-  */
+  color: #DDDDDD;
 }
 
 #home-name {
@@ -67,3 +72,137 @@ nav {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* end nav bar */
+
+
+/* header */
+header {
+  
+}
+/* end header */
+
+/* 
+ *    [main section]
+ */
+section {
+  z-index: 5;
+}
+
+section div {
+  overflow: hidden;
+}
+
+section div.img-wrapper {
+  filter: blur(8px) saturate(115%);
+  -webkit-filter: blur(8px);
+  
+  display: block;
+  text-align: center;
+  
+  box-sizing: padding-box;
+  background-color: #AC1113;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  height: 100%;
+}
+
+section div.img-wrapper img {
+  position: relative;
+  top: -100px;
+  min-width: 100%;
+  min-height: 1200px;
+  resize: both;
+  align-content: center;
+}
+
+/* scrollbar */
+section.welcome::-webkit-scrollbar {
+  width: 8px;
+}
+
+section.welcome::-webkit-scrollbar-button {
+  width: 8px;
+  height: 5px;
+}
+
+section.welcome::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border: thin solid lightgray;
+  box-shadow: 0px 0px 3px #dfdfdf inset;
+  border-radius: 10px;
+}
+
+section.welcome::-webkit-scrollbar-thumb {
+  background: #999;
+  border: thin solid gray;
+  border-radius: 10px;
+}
+
+section.welcome::-webkit-scrollbar-thumb:hover {
+  background: #7d7d7d;
+}
+
+section.welcome::-moz-scrollbar {
+  width: 8px;
+}
+
+section.welcome::-moz-scrollbar-button {
+  width: 8px;
+  height: 5px;
+}
+
+section.welcome::-moz-scrollbar-track {
+  background: #eee;
+  border: thin solid lightgray;
+  box-shadow: 0px 0px 3px #dfdfdf inset;
+  border-radius: 10px;
+}
+
+section.welcome::-moz-scrollbar-thumb {
+  background: #999;
+  border: thin solid gray;
+  border-radius: 10px;
+}
+
+section.welcome::-moz-scrollbar-thumb:hover {
+  background: #7d7d7d;
+}
+/* end scrollbar */
+
+
+/* main content */
+section.welcome {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 75px;
+  bottom: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+div.welcome-block {
+  box-sizing: padding-box;
+  background-color: #000000;
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  height: 100%;
+}
+/* end main content */
+
+
+/*
+ * end [main section]
+ */
+
+
+
+/* footer */
+
+
+/* end footer */
