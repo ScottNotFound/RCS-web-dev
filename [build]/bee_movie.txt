@@ -1,47 +1,3 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Rensselaer Chemistry Society</title>
-  <link href="main.css" rel="stylesheet" type="text/css">
-  <style type="text/css" media="screen, print">
-    @font-face {
-      font-family: "Simplifica";
-      src: url(fonts/SIMPLIFICA Typeface.ttf);
-    }
-  </style>
-</head>
-
-
-<body>
-  <nav>
-    <div class="nav-icon">
-      <a id="home-name" href=""><h2>Rensselaer Chemistry Society</h2></a>
-    </div>
-    <div class="nav-menu">
-      <ul><li><a href="Home/index.html">Home</a></li><li><a href="About/index.html">About</a></li><li><a href="Contact/index.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  
-  <header>
-  </header>
-  
-  <section class="welcome" id="sect-1">
-    <div class="welcome-block" id="block-1">
-      <div class="welcome-block_box">
-        <h1>Welcome to the Rensselaer Chemistry Society</h1>
-        <p>
-        &emsp; Brief description of RCS
-        <br />
-        <br />
-        <br />
-        <br />
-        Here is the bee movie script as a place holder:
-        <br />
-        ====================================================
-        </p>
-        <pre>
 According to all known laws
 of aviation,
 
@@ -4602,35 +4558,6 @@ during a production number!
   
 All right. Take ten, everybody.
 Wrap it up, guys.
-</pre>
-      </div>
-      <div id="events-button">
-      <a href="#event-page">Events</a>
-      </div>
-      <div class="img-wrapper">
-        <p>
-        <img src="images/field_1600x1200.jpg" id="blk-img-1">
-        </p>
-      </div>
-    </div>
-    <div class="welcome-block" id="block-2">
-      <div class="events-block">
-        <h1 id="upcoming-events">Upcoming Events</h1>
-        <p>Coming Soon...</p>
-      </div>
-      <div class="img-wrapper">
-        <p>
-        
-        </p>
-      </div>
-      <footer>
-        <div>
-          
-        </div>
-      </footer>
-    </div>
-  </section>
-  
-</body>
 
-</html>
+  
+I had virtually no rehearsal for that.
