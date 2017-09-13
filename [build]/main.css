@@ -79,11 +79,11 @@ nav {
 
 /* header */
 header {
-  
+
 }
 /* end header */
 
-/* 
+/*
  *    [main section]
  */
 section {
@@ -100,7 +100,7 @@ section div.img-wrapper {
   -webkit-filter: blur(8px);
   display: block;
   text-align: center;
-  
+
   box-sizing: padding-box;
   background-color: #B7B7B7;
   width: 100%;
@@ -279,7 +279,7 @@ div.welcome-block_box {
   padding: 1em;
   border-style: none;
   border-radius: 5px;
-  box-shadow: 
+  box-shadow:
     inset 0 0 5px rgba(0, 0, 0, 0.8),
     0 0 5px 1px rgba(0, 0, 0, 0.8);
   overflow-y: auto;
@@ -287,7 +287,7 @@ div.welcome-block_box {
   max-height: 60%;
   min-height: 20%;
   width: 60%
-  
+
 }
 
 div.welcome-block_box h1 {
@@ -315,14 +315,14 @@ div.events-block {
   max-height: 80%;
   min-height: 60%;
   margin: 2.5% 0px;
-  
+
 }
 
 div.events-block p {
   z-index: 100;
   font-family: Calibri;
   position: relative;
-  
+
 }
 
 #events-button {
@@ -350,7 +350,7 @@ div.events-block p {
   box-shadow:
     inset 0 0 5px rgba(0, 0, 0, 0.8),
     0 0 5px 1px rgba(0, 0, 0, 0.8);
-  
+
 }
 /* end main content */
 
