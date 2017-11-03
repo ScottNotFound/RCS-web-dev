@@ -33,7 +33,6 @@ header a {
   color: rgb(255, 255, 255);
   box-sizing: border-box;
   text-decoration: none;
-  margin-left: 20px;
 }
 
 header a:hover {
@@ -43,6 +42,14 @@ header a:hover {
 header > span {
   position: relative;
   margin: 6px 4px 4px;
+}
+
+span.header-title > a {
+  margin-right: 20px;
+}
+
+span.header-content > a {
+  margin-left: 20px;
 }
 
 span.header-title {
