@@ -91,22 +91,31 @@ section.info {
 }
 
 section.welcome {
-  background-color: rgb(187, 187, 187);
   position: absolute;
   top: 44px;
   left: 0;
+  bottom: 0;
   width: 100%;
-  height: 70%;
+  height: auto;
   z-index: 10;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 div.welcome {
-  background-color: rgb(187, 187, 187);
+  background-color: rgba(187, 187, 187, 0.5);
   position: absolute;
-  top: 64px;
-  left: 20%;
-  width: 60%;
+  padding-top: 64px;
+  width: 100%;
+  height: 100%;
   z-index: 20;
+}
+
+img#lab-1825276 {
+  filter: saturate(200%) blur(5px);
+  position: fixed;
+  overflow: hidden;
+  margin: -10px;
 }
 
 div#welcome-message > p.welcome {
@@ -127,27 +136,35 @@ div#welcome-button {
   top: 36px;
 }
 
-div#welcome-button > a > button.learn-more {
-  background-color: rgba(170, 17, 19, 0.85);
+div#welcome-button > a > button {
+  background-color: rgba(171, 19, 17, 0.75);
   color: rgba(246, 246, 246, 1);
-  border: 1px solid rgba(106, 15, 16, 0.85);
+  border: 1px solid rgba(106, 15, 16, 0.75);
   border-radius: 2px;
   display: inline-block;
   text-align: center;
   float: none;
   padding: 16px 24px;
   margin: 8px;
-  width: auto;
+  width: 200px;
   white-space: nowrap;
   font-family: Simplifica, Helvetica, Verdana, Arial, serif;
   font-size: 32px;
   font-weight: 500;
 }
 
-div#welcome-button > a > button.learn-more:hover {
-  background-color: rgba(154, 15, 17, 0.95);
+div#welcome-button > a > button:hover {
+  background-color: rgba(150, 16, 15, 0.85);
   color: rgba(217, 217, 217, 1);
-  border: 1px solid rgba(98, 11, 10, 0.95);
-  
+  border: 1px solid rgba(98, 11, 10, 0.85);
   cursor: pointer;
+}
+
+footer {
+  background-color: rgba(60, 60, 60, 0.5);
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+  z-index: 50;
 }
