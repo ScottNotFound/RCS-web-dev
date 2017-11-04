@@ -9,7 +9,8 @@ body {
 p.wip {
   text-align: center;
   font-family: Simplifica, Helvetica, Verdana, Arial, serif;
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 a.on {
@@ -79,9 +80,9 @@ section {
 }
 
 section.info {
-  background-color: rgb(187, 187, 187);
-  border-left: 1px solid rgb(146, 146, 146);
-  border-right: 1px solid rgb(146, 146, 146);
+  background-color: rgba(187, 187, 187, 0.7);
+  border-left: 1px solid rgba(146, 146, 146, 0.7);
+  border-right: 1px solid rgba(146, 146, 146, 0.7);
   position: absolute;
   top: 44px;
   bottom: 0;
@@ -115,6 +116,7 @@ img#lab-1825276 {
   filter: saturate(200%) blur(5px);
   position: fixed;
   overflow: hidden;
+  top: 44px;
   margin: -10px;
 }
 
